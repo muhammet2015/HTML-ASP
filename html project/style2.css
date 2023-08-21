@@ -1,0 +1,124 @@
+html{
+	height: 100%; 
+	background-color:#e0ebeb;
+}
+td{
+	width: 25%;
+	height: 25%;
+}
+body{
+	height: 100%; 
+	font-family: Arial;
+}
+
+div{
+	width: 100%;
+	float: left;
+	margin-top: 1px;
+	margin-bottom: 1px; 
+	position:relative;
+}
+
+
+
+ul {
+	position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #00004d;
+}
+
+ul:last-child{
+	border-bottom: 1px solid;
+	border-color: #e0ebeb
+}
+li a{
+	border-top: 1px solid;
+	border-color: #e0ebeb;
+	font-size: 20px;
+    display: block;
+    color: #e0ebeb;
+    padding: 10px 30px ;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #f0f8ff;
+    color: #000;
+}
+
+input[type=submit]{
+	background-color:#0066ff ;
+	border:none;
+	border-radius: 4px;
+	color:white;
+	padding: 6px 10px;
+}
+input[type=text], select, textarea ,input[type=password],input[type=dropdown] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccccff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+	background-color: #3B5998;
+	color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram{
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	color: white; 
+}
+
+#leftdiv{		
+	height:130%;
+	width:20%;
+	background-color: #00004d;
+	left: 0px; 
+}
+#rightdiv{		
+	height: 124%;
+	width:80%;
+	background-color: #e0ebeb;
+	left: 0px; 
+}
+
+#topdiv{
+	text-align: center;
+	font-size: 50px;
+	font-family: arial;
+	height: 500px;
+	background-color: #00004d;
+}		
+th td{
+	padding: 20px;
+	text-align: left;
+	border:1px solid;
+	border-color: red;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+	
